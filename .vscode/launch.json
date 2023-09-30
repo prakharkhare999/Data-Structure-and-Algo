@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Hp/Desktop/Data Struture Questions",
-      "program": "c:/Users/Hp/Desktop/Data Struture Questions/build/Debug/outDebug",
+      "cwd": "c:/Users/Hp/Desktop/Data Struture Questions/Recursion",
+      "program": "c:/Users/Hp/Desktop/Data Struture Questions/Recursion/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
