@@ -10,8 +10,6 @@ void j(int i,int n){
     j(i,n);
 }
 int main(){
-    freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
 
 int n;
 cin>>n;
