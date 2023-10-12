@@ -2,6 +2,7 @@
 
 using namespace std;
 void reversearr(int arr[],int i,int j){
+    //we can do with one index
 if(i>=j){
     return ;
 }
