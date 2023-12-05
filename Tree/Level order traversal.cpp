@@ -7,12 +7,22 @@ Node* levelorder(Node* root){
     queue<Node*>q;
     //inititally
     q.push(root);
+    //nul for level wise printing
+    q.push(NULL);
     while(!q.empty()){
         //A
         Node* temp=q.front();
         //B
         q.pop();
-        //c
+         if(temp==NULL){
+            cout<<endl;
+            if(!q.empty()){
+                q.push(NULL);
+            }
+
+         }
+         else{
+            //c
         cout<<temp->data<<" ";
         //d
         if(temp->left){
@@ -21,6 +31,9 @@ Node* levelorder(Node* root){
         if(temp->right){
             q.push(temp->right);
         }
+
+         }
+        
 
     }
 }
