@@ -19,13 +19,15 @@ bool kthancestor(Node* root,int& k,Node* p){
  if(root->val==p->val){
     return true;
  }
+ 
  bool leftans=kthancestor(root->left,k,p);
  bool rightans=kthancestor(root->right,k,p);
 if(leftans==true || rightans==true){
     k--;
 }
 if(k==0){
-    cout<<root->val<<endl;
+    cout<<"answer"<<root->val<<endl;
+    k=-1;
 
 }
 return leftans || rightans;
