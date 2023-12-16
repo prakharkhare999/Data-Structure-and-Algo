@@ -28,5 +28,6 @@ if(k==0){
     cout<<root->val<<endl;
 
 }
+return leftans || rightans;
 
 }
