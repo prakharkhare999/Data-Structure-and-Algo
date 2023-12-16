@@ -35,7 +35,7 @@ void postorder(Node* root){
     if(root==NULL){
         return ;
     }
-    //LNR
+    //LRN
     postorder(root->left);
     
     postorder(root->right);
